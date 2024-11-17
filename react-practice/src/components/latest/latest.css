@@ -1,0 +1,118 @@
+.wrapper__latest {
+  padding-top: 100px;
+  padding-bottom: 160px;
+}
+
+.latest__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.latest__header-h1 {
+  font-family: DM Sans;
+  font-size: 64px;
+  font-weight: 400;
+  line-height: 79.2px;
+  letter-spacing: 2.88px;
+  color: #fff;
+}
+
+.latest__header-btn button {
+  width: 178px;
+  height: 51px;
+  background: #118DA8;
+  color: #FFFFFF;
+  border: none;
+  border-radius: 6px;
+  font-family: DM Sans;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 27px;
+  text-align: center;
+}
+
+.latest__cards {
+  display: grid;
+  grid-template-columns: repeat(1, 3fr);
+  gap: 60px;
+}
+
+.card {
+  background: #000000;
+  border-radius: 32px;
+  padding: 40px;
+  display: flex;
+}
+
+.card__text {
+  margin-left: 53px;
+}
+
+.card__text-caption {
+  color: #fff;
+  background: #191919;
+  width: 73px;
+  height: 27px;
+  text-align: center;
+  border-radius: 6px;
+  font-family: DM Sans;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+}
+
+.card__text-caption p {
+  width: 82px;
+  font-family: DM Sans;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 27px;
+  color: #118DA8;
+  margin-top: 48px;
+  margin-bottom: 18px;
+}
+
+.card__text-caption h1 {
+  font-family: DM Sans;
+  font-size: 64px;
+  font-weight: 400;
+  line-height: 70.4px;
+  letter-spacing: 2.5px;
+  text-align: left;
+  width: 701px;
+  margin-top: 17px;
+}
+
+.card__text-caption h3 {
+  font-family: DM Sans;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 33px;
+  text-align: left;
+  width: 757px;
+  color: rgb(255, 255, 255, 0.7);
+  margin-top: 28px;
+  margin-bottom: 18px;
+}
+
+.latest__button {
+  width: 208px;
+  height: 51px;
+  border-radius: 6px;
+  background: #118DA8;
+  font-family: DM Sans;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  text-align: center;
+  border: none;
+  color: #fff;
+  margin-top: 9px;
+}
+
+.card__text-caption--tip  {
+  width: 136px;
+  text-align: center;
+}
